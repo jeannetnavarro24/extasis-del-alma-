@@ -28,8 +28,40 @@ section { padding: 60px 20px; scroll-margin-top: var(--header); max-width: 960px
 @media(min-width:768px){ .grid{ grid-template-columns: repeat(2,1fr);} }
 .card { padding:18px; border:1px solid #eee; border-radius:12px; background:#fff; }
 .btn { display:inline-block; padding:12px 18px; border-radius:10px; background:#0c8f6a; color:#fff; text-decoration:none; font-weight:700; }
-.btn-outline { background:transparent; color:#0c8f6a; border:2px solid #0c8f6a; }
+.btn-outline { background:transparent; color:#0c8f6a; border:2px solid #0c8f6a; }.btn-outline {
+background: transparent;
+color: #0c8f6a;
+border: 2px solid #0c8f6a;
+}
+
+.btn-outline:hover {
+background: #0c8f6a;
+color: #fff;
+} 
 .muted { color:#666; }
+.quick-links.container {
+display: flex;
+gap: 12px;
+align-items: center;
+flex-wrap: wrap;
+margin: 10px 0 20px;
+}
+.quick-links.container a {
+display: inline-block;
+padding: 8px 12px;
+border: 1px solid #e6e6e6;
+border-radius: 999px;
+text-decoration: none;
+color: #333;
+font-weight: 600;
+transition: transform .12s ease, background .12s ease, border-color .12s ease;
+background: #fff;
+}
+.quick-links.container a:hover {
+transform: translateY(-1px);
+background: #fafafa;
+border-color: #dcdcdc;
+}
 </style>
 </head>
 
@@ -52,22 +84,44 @@ section { padding: 60px 20px; scroll-margin-top: var(--header); max-width: 960px
 <section
 <h2>✨ Frase del alma</h2>
 <p><em>“A veces hay que tocar fondo para escuchar el llamado de tu alma. Lo que parecía una caída era, en realidad, el comienzo de tu ascenso.”</em></p>
-</section>
 
-<section id="despertar-espiritual">
+
+ <!-- Sección: Despertar espiritual -->
+<section id="despertar-espiritual" class="section-soft">
 <h2>✨ Despertar espiritual</h2>
-<p>Aquí puedes escribir el contenido o descripción sobre el despertar espiritual.</p>
+<p>
+El despertar espiritual es el momento en que tu alma empieza a recordar quién eres realmente.
+Es soltar creencias que limitan tu luz, abrazar tu intuición y abrirte a una conexión más profunda con el universo.
+A veces llega en medio del dolor, otras veces en un instante de claridad, pero siempre transforma tu forma de ver la vida.
+</p>
 </section>
 
-<section id="llamas-gemelas">
-<h2>❤️ Llamas gemelas</h2>
-<p>Aquí puedes escribir el contenido o descripción sobre las llamas gemelas.</p>
+<!-- Sección: Llamas gemelas -->
+<section id="llamas-gemelas" class="section-soft">
+<h2>💗 Llamas gemelas</h2>
+<p>
+El camino de las <strong>llamas gemelas</strong> es un viaje de profundo autoconocimiento.
+Es un espejo que refleja tus luces y tus sombras para ayudarte a sanar y a evolucionar.
+No es solo una historia de amor; es un despertar que eleva tu alma a nuevas dimensiones.
+</p>
+<p style="text-align:center; margin-top:14px;">
+<a class="btn" href="https://wa.me/522212679523" target="_blank">Quiero acompañamiento en mi proceso</a>
+</p>
 </section>
 
-<section id="sanacion-emocional">
+<!-- Sección: Sanación emocional -->
+<section id="sanacion-emocional" class="section-soft">
 <h2>🌿 Sanación emocional</h2>
-<p>Aquí puedes escribir el contenido o descripción sobre la sanación emocional.</p>
+<p>
+Aquí trabajamos con herramientas prácticas: meditación, respiración consciente, introspección
+y hábitos de autocuidado para liberar emociones, calmar la mente y reconectar con tu amor propio.
+Si tu proceso está ligado a <strong>llamas gemelas</strong>, adaptamos el acompañamiento a esa experiencia.
+</p>
 </section>
+
+
+</section>
+
 
  <section id="como-te-ayudo">
 <h2>Cómo te ayudo a sanar</h2>
@@ -147,7 +201,7 @@ Si deseas reservar, escríbeme por WhatsApp 👉
 <h4>— Valeria Sánchez</h4>
 </div>
 
-<ul>
+
 
 <h2>🔗 Conecta conmigo</h2>
 <a href="https://www.instagram.com/extasisdelalmaoficial/" target="_blank">📸 Instagram</a><br>
@@ -165,6 +219,23 @@ Si deseas reservar, escríbeme por WhatsApp 👉
 
 
 
+<!-- Sección: Conecta conmigo -->
+<section id="conecta-conmigo" class="section-soft" style="background-color:#fdfcf5; padding:20px; border-radius:10px; margin-top:30px; text-align:center;">
+<h2 style="color:#1c8f42; font-size:1.8em;">🤝 Conecta conmigo</h2>
+<p style="font-size:1.1em; color:#444; max-width:600px; margin:auto; line-height:1.6;">
+Este es un espacio para compartir experiencias y apoyarnos mutuamente.
+🌟 Juntas podemos crear una comunidad de <strong>llamas gemelas</strong>, un lugar seguro donde cada una pueda
+expresar su verdad, sanar y crecer en su camino espiritual.
+</p>
+<p style="margin-top:20px;">
+<a href="https://wa.me/522212679523" target="_blank"
+style="display:inline-block; background-color:#1c8f42; color:white; padding:12px 25px;
+border-radius:30px; text-decoration:none; font-size:1.1em; border:2px solid gold;
+transition:0.3s;">
+💬 Hablar por WhatsApp
+</a>
+</p>
+</section>
 
 </body>
 </html>
